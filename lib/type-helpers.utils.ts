@@ -99,10 +99,10 @@ export function inheritTransformationMetadata(
       ),
     );
   } catch (err) {
-    console.error(
-      `Transformer ("class-transformer") metadata cannot be inherited for "${parentClass.name}" class.`,
-    );
-    console.error(err);
+    // console.error(
+    //   `Transformer ("class-transformer") metadata cannot be inherited for "${parentClass.name}" class.`,
+    // );
+    // console.error(err);
   }
 }
 
