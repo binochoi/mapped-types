@@ -19,7 +19,7 @@ export function PartialType<T>(classRef: Type<T>) {
   inheritTransformationMetadata(classRef, PartialClassType);
 
   if (propertyKeys) {
-    propertyKeys.forEach((key) => {
+    propertyKeys.forEach((key: any) => {
       applyIsOptionalDecorator(PartialClassType, key);
     });
   }
