@@ -24,7 +24,9 @@
 
 ## Description
 
-This fork removes dependency to @nestjs/common, makes usable mapped types on the browser side
+Fork version that removes the error message that occurs when used with vite in mapped-types created for the purpose of implementing nestjs/mapped-types in the same behavior in the browser
+
+nestjs/mapped-types를 브라우저에서 같은 동작으로 구현할 목적으로 만들어진 mapped-types에서 vite와 함께 사용했을 때 생기는 에러 메시지를 제거한 포크 버전
 
 ## Installation
 
